@@ -23,3 +23,12 @@ footer{
 [epub|type~="bridgehead"] i{
 	font-style: normal;
 }
+
+[epub|type~="epigraph"]{
+	font-style: italic;
+	/* ... */
+}
+
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
