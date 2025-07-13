@@ -20,15 +20,27 @@ footer{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
 }
 
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+
+/* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
-	/* ... */
+	hyphens: none;
+	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
+/* End all epigraphs */
