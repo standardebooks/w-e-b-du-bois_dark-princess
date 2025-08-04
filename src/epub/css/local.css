@@ -44,8 +44,9 @@ footer{
 /* End all epigraphs */
 
 /* Centered dedications */
-section[epub|type~="dedication"]{
+section[epub|type~="dedication"] p{
 	text-align: center;
+	text-indent: 0;
 }
 
 section[epub|type~="dedication"] > *{
