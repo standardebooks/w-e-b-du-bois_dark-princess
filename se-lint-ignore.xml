@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="part-4.xhtml">
+		<ignore>
+			<code>t-061</code>
+			<reason>Summary-style bridgehead without ending punctuation.</reason>
+		</ignore>
+		<ignore>
+			<code>y-024</code>
+			<reason>Possible typo: dash before the/there/is/and/or/they/when probably should be em-dash.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
