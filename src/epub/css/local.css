@@ -20,6 +20,10 @@ footer{
 	text-indent: 0;
 }
 
+[epub|type~="bridgehead"] p:first-of-type {
+	text-align: center;
+}
+
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;
