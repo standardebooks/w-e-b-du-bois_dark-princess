@@ -76,3 +76,8 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End centered dedications */
+
+/* this targets the poster content which is all caps */
+#chapter-2-14 blockquote p > span + br {
+  font-variant: small-caps;
+}
