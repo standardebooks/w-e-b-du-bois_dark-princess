@@ -24,21 +24,6 @@ footer{
 	text-align: center;
 }
 
-[epub|type~="z3998:poem"] p{
-	text-align: initial;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:poem"] p > span{
-	display: block;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-[epub|type~="z3998:poem"] p > span + br{
-	display: none;
-}
-
 [epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -55,15 +40,6 @@ footer{
 }
 
 
-
-
-/* All epigraphs */
-[epub|type~="epigraph"]{
-	font-style: italic;
-	hyphens: none;
-	-epub-hyphens: none;
-}
-/* End all epigraphs */
 
 /* Centered dedications */
 section[epub|type~="dedication"] p{
@@ -113,14 +89,14 @@ section[epub|type~="dedication"] > *{
 #chapter-4-17 blockquote header p:first-of-type {
     font-variant: normal;
 	font-style: normal;
-	text-align: left;
+	text-align: initial;
 	text-indent: -1em;
 	/* note: header is not centered in scan */
 }
 #chapter-4-17 blockquote header p:last-of-type {
     font-variant: normal;
 	font-style: italic;
-	text-align: left;
+	text-align: initial;
 	text-indent: -1em;
 	/* note: last line of header is italicized */
 }
