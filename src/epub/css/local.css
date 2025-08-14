@@ -39,18 +39,18 @@ footer{
 	display: none;
 }
 
-[epub|type~="z3998:hymn"] p{
+[epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:hymn"] p > span{
+[epub|type~="z3998:song"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:hymn"] p > span + br{
+[epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
 
@@ -101,4 +101,10 @@ section[epub|type~="dedication"] > *{
 }
 #chapter-2-14 blockquote header {
     letter-spacing: 2px;
+}
+#chapter-2-14 blockquote p:nth-of-type(2) {
+    letter-spacing: 2px;
+	text-align: center;
+	text-indent: 0;
+	margin: 1em;
 }
