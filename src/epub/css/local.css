@@ -108,3 +108,50 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 	margin: 1em;
 }
+
+/* peculiar formatting of letter in part IV */
+#chapter-4-17 blockquote header p:first-of-type {
+    font-variant: normal;
+	font-style: normal;
+	text-align: left;
+	text-indent: -1em;
+	/* note: header is not centered in scan */
+}
+#chapter-4-17 blockquote header p:last-of-type {
+    font-variant: normal;
+	font-style: italic;
+	text-align: left;
+	text-indent: -1em;
+	/* note: last line of header is italicized */
+}
+#chapter-4-17 blockquote footer p:first-of-type b {
+	font-variant: small-caps;
+	/* first name uses small-caps */
+}
+#chapter-4-17 blockquote footer p:last-of-type b {
+	font-variant: normal;
+	/* second name does not use small-caps */
+}
+
+#chapter-4-17 blockquote > p:first-of-type {
+	text-indent: 1em;
+	/* first paragraph is indented as normal */
+}
+
+#chapter-4-17 blockquote > p:nth-of-type(2) {
+	text-align: initial;
+	text-indent: 0;
+	padding-left: 2em;
+	/* second paragraph is not indented and it is padded on the left */
+}
+
+#chapter-4-17 blockquote > p:nth-of-type(2) > span {
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+	/* remaining lines of second paragraph are aligned in a block */
+}
+
+#chapter-4-17 blockquote > p:nth-of-type(2) > span + br {
+	display: none;
+}
