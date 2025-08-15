@@ -50,10 +50,11 @@
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Dark_Princess</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/william-edward-burghardt-du-bois_dark-princess</meta>
-		<dc:creator id="author">William Edward Burghardt Du Bois</dc:creator>
-		<meta property="file-as" refines="#author">Du Bois, William Edward Burghardt</meta>
+		<dc:creator id="author">W. E. B. Du Bois</dc:creator>
+		<meta property="file-as" refines="#author">Du Bois, W. E. B.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/William_Edward_Burghardt_Du_Bois</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n80046721/</meta>
+		<meta property="se:name.person.full-name" refines="#author">William Edward Burghardt Du Bois</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#artist">Anonymous</meta>
