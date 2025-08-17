@@ -38,9 +38,9 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008110344</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">A romance with an Indian Princess that entangles a young American black man with a world-wide conspiracy pitting the colored peoples of the world against the injustice of the white peoples of the world.</dc:description>
+		<dc:description id="description">A romance with an Indian princess entangles a young American black man in a world-wide conspiracy of the colored peoples against the white.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;A brilliant young black medical student runs into a color barrier keeping him from graduating. He goes into self-exile to Europe where he discovers a world-wide group of colored peoples seeking to overthrow white dominated governments. He falls in love with an Indian Princess, who is one of the leaders of the organization. After several troubled years dealing with Chicago politics and a failed marriage of convenience, he marries the Indian Princess and works with the organization to develop long range plans to overcome white dominance.&lt;/p&gt;
+			&lt;p&gt;A brilliant young black medical student runs into a color barrier keeping him from graduating. He goes into self-exile to Europe where he discovers a world-wide group of colored peoples seeking to overthrow white dominated governments. He falls in love with an Indian princess, who is one of the leaders of the organization. After several troubled years dealing with Chicago politics and a failed marriage of convenience, he marries the Indian Princess and works with the organization to develop long range plans to overcome white dominance.&lt;/p&gt;
 			&lt;p&gt;This book is said to be DuBois’ favorite, combining themes of romance, international racial solidarity, and the corruptness of both black and white political machines in Chicago.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
