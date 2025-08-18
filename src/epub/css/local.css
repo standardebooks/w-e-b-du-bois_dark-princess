@@ -20,7 +20,7 @@ footer{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] p:first-of-type {
+[epub|type~="bridgehead"] p:first-of-type{
 	text-align: center;
 }
 
@@ -38,8 +38,6 @@ footer{
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
-
-
 
 /* Centered dedications */
 section[epub|type~="dedication"] p{
@@ -72,62 +70,61 @@ section[epub|type~="dedication"] > *{
 /* End centered dedications */
 
 /* this targets the poster content which is all caps */
-#chapter-2-14 blockquote {
-    font-variant: small-caps;
+#chapter-2-14 blockquote{
+	font-variant: small-caps;
 }
-#chapter-2-14 blockquote header {
-    letter-spacing: 2px;
+
+#chapter-2-14 blockquote header{
+	letter-spacing: 2px;
 }
-#chapter-2-14 blockquote p:nth-of-type(2) {
-    letter-spacing: 2px;
+
+#chapter-2-14 blockquote p:nth-of-type(2){
+	letter-spacing: 2px;
+	margin: 1em;
 	text-align: center;
 	text-indent: 0;
-	margin: 1em;
 }
 
-/* peculiar formatting of letter in part IV */
-#chapter-4-17 blockquote header p:first-of-type {
-    font-variant: normal;
+/* Start peculiar formatting of letter in part IV */
+#chapter-4-17 blockquote header p:first-of-type{
 	font-style: normal;
-	text-align: initial;
-	text-indent: -1em;
-	/* note: header is not centered in scan */
-}
-#chapter-4-17 blockquote header p:last-of-type {
-    font-variant: normal;
-	font-style: italic;
-	text-align: initial;
-	text-indent: -1em;
-	/* note: last line of header is italicized */
-}
-#chapter-4-17 blockquote footer p:first-of-type b {
-	font-variant: small-caps;
-	/* first name uses small-caps */
-}
-#chapter-4-17 blockquote footer p:last-of-type b {
 	font-variant: normal;
-	/* second name does not use small-caps */
-}
-
-#chapter-4-17 blockquote > p:first-of-type {
-	text-indent: 1em;
-	/* first paragraph is indented as normal */
-}
-
-#chapter-4-17 blockquote > p:nth-of-type(2) {
 	text-align: initial;
-	text-indent: 0;
-	padding-left: 2em;
-	/* second paragraph is not indented and it is padded on the left */
+	text-indent: -1em; /* note: header is not centered in scan nor indented */
 }
 
-#chapter-4-17 blockquote > p:nth-of-type(2) > span {
+#chapter-4-17 blockquote header p:last-of-type{
+	font-style: italic;
+	font-variant: normal;
+	text-align: initial;
+	text-indent: -1em; /* note: last line of header is italicized */
+}
+
+#chapter-4-17 blockquote footer p:first-of-type b{
+	font-variant: small-caps; /* first name in footer uses small-caps */
+}
+
+#chapter-4-17 blockquote footer p:last-of-type b{
+	font-variant: normal; /* second name in footer does not use small-caps */
+}
+
+#chapter-4-17 blockquote > p:first-of-type{
+	text-indent: 1em; /* first paragraph is indented as normal */
+}
+
+#chapter-4-17 blockquote > p:nth-of-type(2){
+	padding-left: 2em;
+	text-align: initial;
+	text-indent: 0; /* second paragraph is not indented and it is padded on the left */
+}
+
+#chapter-4-17 blockquote > p:nth-of-type(2) > span{
 	display: block;
 	padding-left: 1em;
-	text-indent: -1em;
-	/* remaining lines of second paragraph are aligned in a block */
+	text-indent: -1em; /* remaining lines of second paragraph are aligned in a block */
 }
 
-#chapter-4-17 blockquote > p:nth-of-type(2) > span + br {
+#chapter-4-17 blockquote > p:nth-of-type(2) > span + br{
 	display: none;
 }
+/* End peculiar formatting of letter in part IV */

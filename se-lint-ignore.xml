@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="part-4.xhtml">
+		<ignore>
+			<code>c-019</code>
+			<reason>Per scan, the first signature uses small-caps, but the second one does not nor is it italicized</reason>
+		</ignore>
+	</file>
+	<file path="part-4.xhtml">
+		<ignore>
+			<code>c-015</code>
+			<reason>Per scan, the second line of header, the salutation, is aligned with the recipient and with the paragraph text in the body</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
