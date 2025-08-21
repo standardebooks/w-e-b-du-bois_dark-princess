@@ -1,16 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-header{
-	font-variant: small-caps;
-	margin: 1em;
-	text-align: center;
-}
-
-footer{
-	margin-top: 1em;
-	text-align: right;
-}
 
 [epub|type~="bridgehead"]{
 	display: inline-block;
@@ -18,10 +8,6 @@ footer{
 	max-width: 60%;
 	text-align: justify;
 	text-indent: 0;
-}
-
-[epub|type~="bridgehead"] p:first-of-type{
-	text-align: center;
 }
 
 [epub|type~="z3998:song"] p{
@@ -69,41 +55,70 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
-/* this targets the poster content which is all caps */
+/* letters */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+/* The first paragraph following a salutation not in a header 
+must have text indent of 0. See SMEoS 7.7.3.7 
+*/
+[epub|type~="z3998:letter"] p:first-of-type + p{
+	text-indent: 0; 
+}
+
+
+
+/* end of letters */
+
+/* custom */
+/* dates in bridgeheads */
+[epub|type~="bridgehead"] p:first-of-type{
+	text-align: center;
+}
+
+[epub|type~="bridgehead"] p + p{
+	text-indent: 0;
+}
+
+section[epub|type~="chapter"] > header{
+	font-variant: small-caps;
+	margin-top: 3em;
+}
+
+/* poster in 2-14 */
 #chapter-2-14 blockquote{
 	font-variant: small-caps;
 }
 
 #chapter-2-14 blockquote header{
 	letter-spacing: .2em;
+	margin-bottom: 1em;
 }
-#chapter-2-14 blockquote p:last-of-type{
+
+#chapter-2-14 blockquote > p:last-of-type{
 	letter-spacing: .2em;
+	margin-top: 1em;
 	text-indent: initial;
 	text-align: center;
-	margin: 1em;
 }
 
-/* Start Letter CSS */
-[epub|type~="z3998:letter"] header{
-	font-variant: normal; /* override prior CSS for header, not small-caps */
-	text-align: initial; /* override prior CSS for header, not centered */
+/* custom formatting for letter in 4-17 */
+#chapter-4-17 [epub|type~="z3998:letter"] header{
+	text-align: initial;
 }
 
-/* [epub|type~="z3998:salutation"] + p, */
-[epub|type~="z3998:letter"] header + p{
+#chapter-4-17 [epub|type~="z3998:letter"] > p:last-of-type{
+	margin-left: 1em;
 	text-indent: 0;
 }
-
-/* [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
-[epub|type~="z3998:salutation"],
-[epub|type~="z3998:signature"]{
-	font-variant: small-caps;
-} */
-
-[epub|type~="z3998:salutation"]{
-	font-style: italic; /* should be italics per scan */
-}
-
-/* End Letter CSS */
+/* end of custom */
