@@ -61,6 +61,7 @@ footer{
 	text-align: right;
 }
 
+[epub|type~="z3998:salutation"] + p,
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
 }
@@ -68,15 +69,6 @@ footer{
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
-
-/* The first paragraph following a salutation not in a header 
-must have text indent of 0. See SMEoS 7.7.3.7 
-*/
-[epub|type~="z3998:letter"] p:first-of-type + p{
-	text-indent: 0; 
-}
-
-
 
 /* end of letters */
 
