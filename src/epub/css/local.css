@@ -74,6 +74,7 @@ footer{
 /* dates in bridgeheads */
 [epub|type~="bridgehead"] p:first-of-type{
 	text-align: center;
+	margin-bottom: 1em;
 }
 
 [epub|type~="bridgehead"] p + p{
