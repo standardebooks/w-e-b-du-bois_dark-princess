@@ -1,7 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
@@ -69,7 +68,6 @@ footer{
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
-
 /* end of letters */
 
 /* custom */
@@ -100,8 +98,8 @@ section[epub|type~="chapter"] > header{
 #chapter-2-14 blockquote > p:last-of-type{
 	letter-spacing: .2em;
 	margin-top: 1em;
-	text-indent: initial;
 	text-align: center;
+	text-indent: initial;
 }
 
 /* custom formatting for letter in 4-17 */
