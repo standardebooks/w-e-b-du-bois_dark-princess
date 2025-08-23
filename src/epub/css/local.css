@@ -113,3 +113,5 @@ section[epub|type~="chapter"] > header{
 	text-indent: 0;
 }
 /* end of custom */
+
+.telegram{ font-variant: all-small-caps; }
