@@ -68,13 +68,17 @@ footer{
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
+
+.telegram{
+	font-variant: all-small-caps;
+}
 /* end of letters */
 
 /* custom */
 /* dates in bridgeheads */
 [epub|type~="bridgehead"] p:first-of-type{
-	text-align: center;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 [epub|type~="bridgehead"] p + p{
@@ -113,5 +117,3 @@ section[epub|type~="chapter"] > header{
 	text-indent: 0;
 }
 /* end of custom */
-
-.telegram{ font-variant: all-small-caps; }
