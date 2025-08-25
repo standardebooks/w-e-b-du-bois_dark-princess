@@ -106,7 +106,7 @@ section[epub|type~="chapter"] > header{
 	letter-spacing: .2em;
 	margin-top: 1em;
 	text-align: center;
-	text-indent: initial;
+	text-indent: 0;
 }
 
 /* custom formatting for letter in 4-17 */
