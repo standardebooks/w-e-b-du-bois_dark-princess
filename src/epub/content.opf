@@ -52,7 +52,7 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/w-e-b-du-bois_dark-princess</meta>
 		<dc:creator id="author">W. E. B. Du Bois</dc:creator>
 		<meta property="file-as" refines="#author">Du Bois, W. E. B.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/William_Edward_Burghardt_Du_Bois</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/W._E._B._Du_Bois</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n80046721/</meta>
 		<meta property="se:name.person.full-name" refines="#author">William Edward Burghardt Du Bois</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
