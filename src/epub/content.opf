@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/w-e-b-du-bois/dark-princess</dc:identifier>
 		<dc:date>2025-08-25T03:21:35Z</dc:date>
@@ -40,11 +40,11 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008110344</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">A romance with an Indian princess entangles a young American black man in a world-wide conspiracy of the colored peoples against the white.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A romance with an Indian princess entangles a young American black man in a world-wide conspiracy of the colored peoples against the white.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;A brilliant young black American medical student runs into a color barrier that keeps him from graduating. He goes into self-exile to Europe where he discovers a world-wide group of colored peoples seeking to overthrow white-dominated governments. He falls in love with an Indian princess, who is one of the leaders of the organization. After returning to America and spending several troubled years dealing with Chicago politics and a failed marriage of convenience, he marries the princess and works with the organization to develop long range plans to overcome white dominance.&lt;/p&gt;
 			&lt;p&gt;This book was DuBois’ personal favorite of his works, combining themes of romance, international racial solidarity, and the corruptness of both the black and white political machines in Chicago.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/Dark_Princess</dc:source>
 		<dc:source>https://archive.org/details/dark-princess-romance</dc:source>
